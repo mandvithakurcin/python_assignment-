@@ -1,0 +1,68 @@
+#1.Display float number with 2 decimal places using print()
+float= 2.12344
+format_float = "{:.2f}".format(float)
+print(format_float)
+
+#2.12
+
+#2.Takes two integer numbers and  return their product.
+num1=10
+num2=1
+def product(x,y):
+  return x*y
+print(product(num1,num2))
+
+#10
+
+#3.Write a Python program to get the volume of a sphere with radius 10.
+pi = 3.1415926535897931
+r= 10
+V= 4.0/3.0*pi* r**3
+print('volume of sphere= ',V)
+
+#volume of sphere=:  4186.666666666667
+
+#4.Accept two numbers from the user and multiply them together.
+num1=int(input("enter first no.  : "))
+num2=int(input("enter second no. : "))
+def prod(x,y):
+  return x*y
+print(prod(num1,num2))
+
+#enter first no.  : 3
+#enter second no. : 3
+#9
+
+#6.Write a Python program to calculate the length of a string
+string="MANDVI THAKUR"
+print(len(string))
+
+#8.Given two integer numbers return their sum. If the sum is greater than 100, then return their product.
+num1=50
+num2=51
+def pro(x,y):
+  return x*y
+def sum(x,y):
+  return x+y
+sum=sum(num1,num2)
+if(sum>100):
+  print("product :",pro(num1,num2))
+else:
+  print("sum=",sum)
+#product : 2550
+
+#9.Write a Python program to calculate the sum of three given numbers, if the values are not - equal then return four times of their sum
+num1=4
+num2=4
+num3=2
+def sum(num1,num2,num3):
+  return num1+num2+num3
+sum=sum(num1,num2,num3)
+if(num1==num2 and num1==num3):
+  print("sum =",sum)
+else:
+  print("sum :",sum*4)
+#sum =40
+  
+  
+  
